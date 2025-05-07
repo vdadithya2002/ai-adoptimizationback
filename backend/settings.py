@@ -7,9 +7,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-)l#y%n73vevnc=^50cr4hysm&cd(l^#2uj)yklaejyq-3=*x5u'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['https://ai-adoptimizationback.onrender.com', '127.0.0.1', 'localhost']
 
 # Application definition
 INSTALLED_APPS = [
@@ -25,10 +25,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',  # CORS middleware should be at the top
-    'django.middleware.common.CommonMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'corsheaders.middleware.CorsMiddleware',  # CORS middleware should be at the top
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
