@@ -103,6 +103,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Local React development server
 ]
 
-# Optional: If you're doing POST/PUT with custom headers, allow all methods and headers
 CORS_ALLOW_HEADERS = ['*']
 CORS_ALLOW_METHODS = ['*']
