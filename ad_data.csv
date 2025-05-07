@@ -1,0 +1,5 @@
+platform,budget,impressions,clicks,cost_per_click,reach,Fashion,Food,Tech,Education,Travel,RealEstate,Fitness,Gaming,Finance
+Google,10000,50000,1000,10,45000,0.6,0.8,1.0,0.9,0.7,0.9,0.7,0.8,1.0
+Facebook,10000,60000,1500,8,55000,0.8,1.0,0.8,0.7,1.0,0.8,0.9,0.9,0.9
+Instagram,10000,55000,1300,9,50000,1.0,0.9,0.6,0.5,1.0,0.7,1.0,0.8,0.7
+YouTube,10000,70000,2000,7,65000,0.7,1.0,0.9,0.6,1.0,0.6,0.8,1.0,0.8
